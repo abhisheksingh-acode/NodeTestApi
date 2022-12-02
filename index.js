@@ -9,7 +9,6 @@ app.get('/',(req,res)=>{
   res.json({msg:'welcome'});
 });
 
-
 app.get('/home',(req,res)=>{
   res.json({msg:'home'});
 });
